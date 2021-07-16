@@ -18,9 +18,8 @@ class C extends B{
 	}
 }
 
-class D extends B {
-	void method3()
-	{
+class D extends B{
+	void method3() {
 		System.out.println("method3");
 	}
 }
@@ -31,6 +30,8 @@ public class MultilevelInhertnce extends C{
 		MultilevelInhertnce obj = new MultilevelInhertnce();
 		obj.method1();
 		obj.method2();
+		D obj1 = new D();
+		obj1.method3();
 
 	}
 
