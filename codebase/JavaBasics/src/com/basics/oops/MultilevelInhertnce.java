@@ -19,7 +19,7 @@ class C extends B{
 }
 
 class D extends B{
-	void method3() {
+	void method3(){
 		System.out.println("method3");
 	}
 }
