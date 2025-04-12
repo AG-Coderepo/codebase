@@ -1,4 +1,4 @@
-package com.basics.oops;
+package com.practice.section;
 
 public class Practice1 {
 
