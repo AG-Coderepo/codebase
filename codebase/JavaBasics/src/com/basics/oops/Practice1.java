@@ -2,14 +2,19 @@ package com.basics.oops;
 
 public class Practice1 {
 
-	public static void main(String[] args) {
+	public static void	main(String[] args)
+	{
 		
-		System.out.println(2);
-		System.out.println(12.34);
-		System.out.println("Hello Athmeeya");
-		System.out.println(true);
-		System.out.println('A');
-
+		Practice2.Say_hi();
+		
 	}
 
+}
+
+
+class Practice2{
+	
+	static void Say_hi() {
+		System.out.println("Hello ,You called me");
+	}
 }
